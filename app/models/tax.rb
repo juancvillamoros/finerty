@@ -29,11 +29,11 @@ class Tax < ApplicationRecord
   end
   
   def calculate_salud
-    self.ibc * 0.126
+    ibc * 0.126
   end
   
   def calculate_pension
-    self.ibc * 0.16
+    ibc * 0.16
   end
   
   def calcular_fsp
@@ -48,16 +48,12 @@ class Tax < ApplicationRecord
     end
     return tarifa_fsp
   end
-  
-  
+
   def calculate_cesantias
-    (self.ibc/1.2)*12
-  end
-  def calculate_ccf(ibc_percentage)
-    self.ibc * ibc_percentage
+    (ibc/1.2)*12
   end
   
   def ibc
-    self.salary.amount * 0.4
+    salary.amount * 0.4
   end
 end
