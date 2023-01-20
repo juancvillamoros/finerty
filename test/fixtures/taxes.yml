@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  arl: 9.99
+  salud: 9.99
+  pension: 9.99
+  fsp: 9.99
+  cesantias: 9.99
+  ccf: 9.99
+  total: 9.99
+  user: one
+  salary: one
+
+two:
+  arl: 9.99
+  salud: 9.99
+  pension: 9.99
+  fsp: 9.99
+  cesantias: 9.99
+  ccf: 9.99
+  total: 9.99
+  user: two
+  salary: two

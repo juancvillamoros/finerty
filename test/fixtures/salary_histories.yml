@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  start_date: 2023-01-19
+  end_date: 2023-01-19
+  amount: 9.99
+  user: one
+  salary: one
+
+two:
+  start_date: 2023-01-19
+  end_date: 2023-01-19
+  amount: 9.99
+  user: two
+  salary: two
